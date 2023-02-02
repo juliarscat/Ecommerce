@@ -1,1 +1,1 @@
-Modules and other files for Prestashop
+Modules and other files for eshops
