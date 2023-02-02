@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Juliars_Bizumpayment>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Juliars_Bizumpayment>
+    </modules>
+</config>
