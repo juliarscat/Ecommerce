@@ -1,3 +1,5 @@
+// A Wordpress module for bizum
+
 add_action( 'plugins_loaded', 'woocommerce_bizum_init', 0 );
 
 function woocommerce_bizum_init() {
