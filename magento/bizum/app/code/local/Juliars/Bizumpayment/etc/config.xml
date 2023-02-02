@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Juliars_Bizumpayment>
+            <version>0.1.0</version>
+        </Juliars_Bizumpayment>
+    </modules>
+    <global>
+        <helpers>
+            <bizumpayment>
+                <class>Juliars_Bizumpayment_Helper</class>
+            </bizumpayment>
+        </helpers>
+        <models>
+            <bizumpayment>
+                <class>Juliars_Bizumpayment_Model</class>
+            </bizumpayment>
+        </models>
+        <resources>
+            <bizumpayment_setup>
+                <setup>
+                    <module>Juliars_Bizumpayment</module>
+                </setup>
+            </bizumpayment_setup>
+        </resources>
+    </global>
+    <default>
+        <payment>
+            <bizumpayment>
+                <active>0</active>
+                <model>bizumpayment/payment</model>
+                <order_status>pending</order_status>
+                <title>Bizum Payment</title>
+                <allowspecific>0</allowspecific>
+            </bizumpayment>
+        </payment>
+    </default>
+</config>
